@@ -44,7 +44,7 @@ $$
 
 ## 📁 Project Structure
  * index.html: Structural layout and UI containers.
- * style.css: 16-bit styling, zebra-striped lists, and layer management (z-index).
+ * main.css: 16-bit styling, zebra-striped lists, and layer management (z-index).
  * main.js: Core game engine, timing logic, and animal ranking system.
  * assets/: Contains all 16-bit pixel art background environments.
 > **Design Choice:** All code comments were removed during the final optimization phase to adhere to "Self-Documenting Code" principles, relying on descriptive variable naming and this documentation for technical clarity.
