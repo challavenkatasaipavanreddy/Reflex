@@ -35,9 +35,10 @@ $$
 [Click here to play Reflex!](https://challavenkatasaipavanreddy.github.io/Reflex/)
 
 ## 🛠️ How to Run Locally
-1. **Clone the Repository:** ```bash
+1. **Clone the Repository:**
+2. ```bash
    git clone [https://github.com/challavenkatasaipavanreddy/Reflex.git](https://github.com/challavenkatasaipavanreddy/Reflex.git)
-2. **No Dependencies:** This is a "Vanilla" project, meaning it requires no external libraries or installations to run.
+3. **No Dependencies:** This is a "Vanilla" project, meaning it requires no external libraries or installations to run.
 
 ## 📁 Project Structure
  * index.html: Structural layout and UI containers.
