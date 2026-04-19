@@ -59,7 +59,7 @@ body {
 @media (max-width: 600px) {
     body {
         flex-direction: column; 
-        overflow-y: auto;       
+        overflow-y: scroll;       
     }
 
     .recent-scores {
@@ -71,7 +71,8 @@ body {
     }
 
     .click-area {
-        height: 60vh;          
+        width: 100%;
+        height: 70vh;
     }
 
     .rank-overlay h1 {
