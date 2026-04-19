@@ -36,7 +36,7 @@ $$
 
 ## 🛠️ How to Run Locally
 1. **Clone the Repository:**
-2. ```bash
+   ```bash
    git clone [https://github.com/challavenkatasaipavanreddy/Reflex.git](https://github.com/challavenkatasaipavanreddy/Reflex.git)
 3. **No Dependencies:** This is a "Vanilla" project, meaning it requires no external libraries or installations to run.
 
