@@ -32,8 +32,7 @@ $$
  * **Pixel Art Rendering:** CSS image-rendering: pixelated; is used to ensure all assets maintain their sharp, blocky 16-bit look without browser blurring.
 
 ## 🚀 How to Run
- 1. **Clone the Repository:** git clone 
-
+ 1. **Clone the Repository:** git clone https://challavenkatasaipavanreddy.github.io/Reflex/
  2. **Open Locally:** Open index.html in any modern web browser (Chrome, Firefox, or Edge).
  3. **No Dependencies:** This is a "Vanilla" project, meaning it requires no external libraries or installations to run.
 
