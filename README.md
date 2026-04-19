@@ -22,6 +22,7 @@ The game's EventListener acts as a state machine, using the waitingForClick bool
 
 ### 3. Data Processing with .reduce()
 To calculate the final average across 5 rounds, the project uses the .reduce() method. This allows for a clean, functional approach to summing the scoreHistory array:
+
 $$
 \text{Average Score} = \frac{\sum \text{scoreHistory}}{5}
 $$
