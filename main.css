@@ -55,3 +55,26 @@ body {
 .score:nth-child(odd) {
     background: #eeeeee;
 }
+
+@media (max-width: 600px) {
+    body {
+        flex-direction: column; 
+        overflow-y: auto;       
+    }
+
+    .recent-scores {
+        width: 100%;           
+        max-height: 200px;      
+        flex-shrink: 1;         
+        border-left: none;
+        border-top: 2px solid #333; 
+    }
+
+    .click-area {
+        height: 60vh;          
+    }
+
+    .rank-overlay h1 {
+        font-size: 1.2rem;      
+    }
+}
