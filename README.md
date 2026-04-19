@@ -31,10 +31,13 @@ $$
  * **Layout Safety:** Using flex-shrink: 0 on the sidebar ensures that score data remains readable even on smaller mobile screens.
  * **Pixel Art Rendering:** CSS image-rendering: pixelated; is used to ensure all assets maintain their sharp, blocky 16-bit look without browser blurring.
 
-## 🚀 How to Run
- 1. **Clone the Repository:** git clone https://challavenkatasaipavanreddy.github.io/Reflex/
- 2. **Open Locally:** Open index.html in any modern web browser (Chrome, Firefox, or Edge).
- 3. **No Dependencies:** This is a "Vanilla" project, meaning it requires no external libraries or installations to run.
+## 🚀 Live Demo
+[Click here to play Reflex!](https://challavenkatasaipavanreddy.github.io/Reflex/)
+
+## 🛠️ How to Run Locally
+1. **Clone the Repository:** ```bash
+   git clone [https://github.com/challavenkatasaipavanreddy/Reflex.git](https://github.com/challavenkatasaipavanreddy/Reflex.git)
+2. **No Dependencies:** This is a "Vanilla" project, meaning it requires no external libraries or installations to run.
 
 ## 📁 Project Structure
  * index.html: Structural layout and UI containers.
