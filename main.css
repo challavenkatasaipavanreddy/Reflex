@@ -24,6 +24,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     transition: background 0.1s ease-in;
+    touch-action: manipulation;
 }
 .display-text {
    padding: 24px;
