@@ -1,10 +1,10 @@
 body {
-    display:flex;
-    flex-direction: row;
     margin: 0;
     padding: 0;
     overflow: hidden;
+    background: #000; 
 }
+
 #app {
     display: flex;
     width: 100vw;
@@ -44,6 +44,7 @@ body {
     min-width: 100px;
     flex-shrink: 0;
     z-index: 20;
+    background: #fff; 
 }
 .score {
     display: flex;
@@ -58,26 +59,17 @@ body {
     background: #eeeeee;
 }
 
-@media (max-width: 600px) {
-    body {
-        flex-direction: column; 
-        overflow-y: scroll;       
-    }
+#rotate-message {
+    display: none; 
+    position: fixed;
+    top: 0; left: 0; width: 100%; height: 100%;
+    background: #000; color: #fff; z-index: 100;
+    text-align: center; justify-content: center; align-items: center;
+    font-family: 'Press Start 2P', cursive;
+    padding: 20px;
+}
 
-    .recent-scores {
-        width: 100%;           
-        max-height: 200px;      
-        flex-shrink: 1;         
-        border-left: none;
-        border-top: 2px solid #333; 
-    }
-
-    .click-area {
-        width: 100%;
-        height: 70vh;
-    }
-
-    .rank-overlay h1 {
-        font-size: 1.2rem;      
-    }
+@media (orientation: portrait) {
+    #rotate-message { display: flex; }
+    #app { display: none; }
 }
