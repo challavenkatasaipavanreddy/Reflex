@@ -86,7 +86,7 @@ function addScore(score) {
     }
 }
 
-clickArea.addEventListener("mousedown", () => {
+clickArea.addEventListener("pointerdown", () => {
     if (waitingForClick) {
         const score = Date.now() - msSinceEpochOnTimeout;
         waitingForClick = false;
