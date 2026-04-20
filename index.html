@@ -1,34 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Reflex: 16-Bit Reaction Timer</title>
-    <link rel="stylesheet" href="main.css">
-</head>
-<body>
-
-    <div id="rotate-message">
-        <p>🔄 Please rotate your device to landscape mode to play Reflex!</p>
-    </div>
-
-    <div class="click-area" id="game-screen">
-        <div class="rank-overlay" id="rank-display">
-            <h1 id="result-text">Welcome. Click to start the game!</h1>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Reaction Time Game</title>
+        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="main.css">
+        <script src="main.js" defer></script>
+    </head>
+    <body>
+        <div id="rotate-message">
+            <p>🔄 Please rotate your device to landscape mode to play!</p>
         </div>
-    </div>
 
-    <div class="recent-scores">
-        <h2>Recent Rounds</h2>
-        <ul id="score-list">
-            <li class="score">-</li>
-            <li class="score">-</li>
-            <li class="score">-</li>
-            <li class="score">-</li>
-            <li class="score">-</li>
-        </ul>
-    </div>
-
-    <script src="main.js"></script>
-</body>
+        <div id="app">
+            <div class="click-area">
+                <div class="display-text">Welcome. Click to start the game!</div>
+            </div>
+            <div class="recent-scores">
+                <div class="score">-</div>
+                <div class="score">-</div>
+                <div class="score">-</div>
+                <div class="score">-</div>
+                <div class="score">-</div>
+            </div>
+        </div>
+    </body>
 </html>
