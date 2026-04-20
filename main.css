@@ -25,6 +25,8 @@ body {
     background-repeat: no-repeat;
     transition: background 0.1s ease-in;
     touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
 }
 .display-text {
    padding: 24px;
