@@ -29,10 +29,11 @@ $$
 
 ### 4. 📱 Mobile-First Optimization
 ​To ensure a "native app" feel on mobile browsers, the following optimizations were implemented:
+
 ​* **Orientation Lock:** Uses CSS @media (orientation: portrait) to trigger a custom "Rotate Device" guard, ensuring the 16-bit assets are always viewed in their intended landscape aspect ratio.
 * **​Latency Reduction:** Implemented touch-action: manipulation and pointerdown events to bypass the standard 300ms mobile tap delay, ensuring reaction times are frame-accurate.
 ​* **Dynamic Scaling:** Utilizes 100dvh (Dynamic Viewport Height) to prevent mobile browser address bars from cutting off UI elements (like the 5th score slot).
-​UX Polish: Removed default mobile tap highlights and text selection using -webkit-tap-highlight-color to maintain immersion during rapid clicking.
+​* **UX Polish:** Removed default mobile tap highlights and text selection using -webkit-tap-highlight-color to maintain immersion during rapid clicking.
 
 ### 5. Responsive Retro UI
  * **Flexbox Architecture:** The layout uses a fluid .click-area for gameplay and a fixed-width .recent-scores sidebar.
@@ -47,7 +48,7 @@ $$
    ```bash
    git clone https://github.com/challavenkatasaipavanreddy/Reflex.git
    ```
-3. **No Dependencies:** This is a "Vanilla" project, meaning it requires no external libraries or installations to run.
+2. **No Dependencies:** This is a "Vanilla" project, meaning it requires no external libraries or installations to run.
 
 ## 📁 Project Structure
  * index.html: Structural layout and UI containers.
