@@ -27,20 +27,23 @@ $$
 \text{Average Score} = \frac{\sum \text{scoreHistory}}{5}
 $$
 
-### 4. 📱 Mobile-First Optimization
+### 4. 🖼️ Responsive Retro UI
+
+The interface is designed to balance 16-bit aesthetics with modern responsive standards:
+
+* **Flexbox Architecture:** The layout uses a fluid `.click-area` for gameplay and a fixed-width `.recent-scores` sidebar to maintain structural integrity.
+* **Layout Safety:** Using `flex-shrink: 0` on the sidebar ensures that score data remains readable even on smaller mobile screens.
+* **Pixel Art Rendering:** CSS `image-rendering: pixelated;` is applied to ensure all assets maintain their sharp, blocky look without browser blurring.
+
+### 5. 📱 Mobile-First Optimization
 
 To ensure a "native app" feel on mobile browsers, the following optimizations were implemented:
 
-* **Orientation Lock:** Uses CSS @media (orientation: portrait) to trigger a custom "Rotate Device" guard.
-* **Latency Reduction:** Implemented touch-action: manipulation and pointerdown events to bypass the 300ms delay.
-* **Dynamic Scaling:** Utilizes 100dvh (Dynamic Viewport Height) to prevent UI cutoff from browser address bars.
-* **UX Polish:** Removed default mobile tap highlights using -webkit-tap-highlight-color for better immersion.
+* **Orientation Lock:** Uses CSS `@media (orientation: portrait)` to trigger a custom "Rotate Device" guard, ensuring assets are viewed in landscape.
+* **Latency Reduction:** Implemented `touch-action: manipulation` and `pointerdown` events to bypass the standard 300ms mobile tap delay.
+* **Dynamic Scaling:** Utilizes `100dvh` (Dynamic Viewport Height) to prevent UI cutoff from browser address bars.
+* **UX Polish:** Removed default mobile tap highlights and text selection to maintain total immersion during gameplay.
 
-
-### 5. Responsive Retro UI
- * **Flexbox Architecture:** The layout uses a fluid .click-area for gameplay and a fixed-width .recent-scores sidebar.
- * **Layout Safety:** Using flex-shrink: 0 on the sidebar ensures that score data remains readable even on smaller mobile screens.
- * **Pixel Art Rendering:** CSS image-rendering: pixelated; is used to ensure all assets maintain their sharp, blocky 16-bit look without browser blurring.
 
 ## 🚀 Live Demo
 [Click here to play Reflex!](https://challavenkatasaipavanreddy.github.io/Reflex/)
