@@ -1,4 +1,4 @@
-const gameTitle = document.querySelector("game-title");
+const gameTitle = document.querySelector(".game-title");
 const clickArea = document.querySelector(".click-area");
 const displayText = document.querySelector(".display-text");
 const scoreElements = document.querySelectorAll(".score");
