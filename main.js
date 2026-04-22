@@ -66,8 +66,6 @@ function showFinalRank() {
     clickArea.style.backgroundImage = `url('${getAnimalBackground(finalAnimal)}')`;
 
     scoreHistory.length = 0;
-    gameTitle.style.display = "block";
-    displayText.classList.add("pulse");
     displayText.innerHTML = `ROUND OVER!<br> Average: ${Average}ms<br> ${finalAnimal}!<br><br>Click to start a NEW GAME.`;
 }
 
