@@ -1,3 +1,4 @@
+const gameTitle = document.querySelector("game-title");
 const clickArea = document.querySelector(".click-area");
 const displayText = document.querySelector(".display-text");
 const scoreElements = document.querySelectorAll(".score");
@@ -37,6 +38,8 @@ function getAnimal(score) {
 }
 
 function play() {
+    gameTitle.style.display = "none";
+    displayText.classList.remove("pulse");
     clickArea.style.backgroundImage = "none";
     clickArea.style.backgroundColor = "#950000";
     displayText.textContent = "Wait for Green...";
@@ -63,6 +66,9 @@ function showFinalRank() {
     clickArea.style.backgroundImage = `url('${getAnimalBackground(finalAnimal)}')`;
 
     scoreHistory.length = 0;
+    gameTitle.style.display = "block";
+    displayText.classList.add("pulse");
+    displayText.innerHTML = ROUND OVER!<br> Average: ${Average}ms<br> ${finalAnimal}!<br><br>Click to start a NEW GAME.;
 }
 
 function addScore(score) {
@@ -114,5 +120,7 @@ clickArea.addEventListener("pointerdown", () => {
 
 document.addEventListener('DOMContentLoaded', () => {
     clickArea.style.backgroundImage = "url('assets/start-bg.png')";
+    gameTitle.style.display = "block";
+    displayText.classList.add("pulse"); 
     displayText.textContent = "Welcome. Click to start the game!";
 });
