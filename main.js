@@ -18,9 +18,9 @@ function getAnimalBackground(animalName) {
         "A Mongoose reaction time! Lightning fast reflexes!": "assets/mongoose-bg.png",
         "A House Cat reaction time! Sharp and agile! Cat-like precision.": "assets/cat-bg.png",
         "A Pro-Gamer reaction time! Ready for the big leagues! Tournament tier.": "assets/gamer-bg.png",
-        "Normal Human reaction Time.": "assets/human-bg.png",
-        "An Elephant reaction Time! Steady but slow.": "assets/elephant-bg.png",
-        "A Tortoise reaction Time! Take your time...": "assets/tortoise-bg.png",
+        "Normal Human reaction time.": "assets/human-bg.png",
+        "An Elephant reaction time! Steady but slow.": "assets/elephant-bg.png",
+        "A Tortoise reaction time! Take your time...": "assets/tortoise-bg.png",
         "Is a sloth playing the game?": "assets/sloth-bg.png"
     };
     return bgs[animalName] || "";
@@ -31,9 +31,9 @@ function getAnimal(score) {
     if (score < 100) return "A mongoose reaction time! Lightning fast reflexes!";
     if (score < 150) return "A House Cat reaction time! Sharp and agile! Cat-like precision.";
     if (score < 200) return "A Pro-Gamer reaction time! Ready for the big leagues! Tournament tier.";
-    if (score < 300) return "Normal Human reaction Time.";
-    if (score < 450) return "An Elephant reaction Time! Steady but slow.";
-    if (score < 650) return "A Tortoise reaction Time! Take your time...";
+    if (score < 300) return "Normal Human reaction time.";
+    if (score < 450) return "An Elephant reaction time! Steady but slow.";
+    if (score < 650) return "A Tortoise reaction time! Take your time...";
     return "Is a sloth playing the game?";
 }
 
