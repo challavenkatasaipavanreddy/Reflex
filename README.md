@@ -11,10 +11,7 @@ Since the source code is kept "clean" (without inline comments) for production r
 To ensure the most accurate reaction tracking, the game utilizes Date.now(). Unlike a standard counter, which can be affected by browser lag, this method captures two specific timestamps:
  * **Timestamp A:** The exact millisecond the screen turns green.
  * **Timestamp B:** The exact millisecond the user clicks.
- * **Result:** The score is calculated as:
-   $$
-   B - A = \text{Reaction Time}
-   $$.
+ * **Result:** The score is calculated as: B - A = **Reaction Time**
 
 ### 2. State Machine Logic
 The game's EventListener acts as a state machine, using the waitingForClick boolean and the current displayText to determine the game's phase:
